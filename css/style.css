@@ -37,7 +37,8 @@ body {
     border: none;
     background-color: #C61F31;
     height: 3rem;
-    width: 40%;   
+    width: 40%;
+    min-width: 104px;  
 }
 
 .saibamais {
@@ -46,6 +47,7 @@ body {
     height: 3rem;
     width: 40%;
     border: white solid 3px;
+    min-width: 104px;
 }
 
 
@@ -166,7 +168,26 @@ body {
 }
 
 @media (max-width: 400px) {
+    .button-choice {
+        margin: 0 auto;
+        display: block;
+    }
+    .bg {
+        background-image: url('../imagens/mobile.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+     
+    }
+    .chamada h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
 
+    .chamada h2 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
     .navbar {
         flex-direction: column;
         align-items: flex-start;
