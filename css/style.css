@@ -171,9 +171,15 @@ body {
     .button-choice {
         margin: 0 auto;
         display: block;
+        min-height: 140px;
+        
+    }
+
+    .matricula {
+        margin-bottom: 30px;
     }
     .bg {
-        background-image: url('../imagens/mobile.JPG');
+        background-image: url('../imagens/mobile2.JPG');
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
