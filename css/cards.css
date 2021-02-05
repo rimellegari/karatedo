@@ -1,0 +1,78 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    padding: 4px 0 4px 0;
+    max-width: 200px;
+    
+    
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+.container h4 {
+    font-size: 1.1rem;
+}
+.container {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.card img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.cardcontainer {
+max-width: 1000px;
+padding-left: 3%;
+padding-right: 3%;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); /*min width da col 225px, máximo 1fr e auto-fill vai tentar ajustar as colunas*/
+gap: 20px;
+justify-items: center;
+}
+.img-card {
+    position: relative;
+}
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 4px 0 4px 0;
+    background: rgba(0,0,0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s;
+    
+}
+
+.img-overlay:hover {
+    opacity: 1;
+}
+
+
+.over-desc {
+   width: 60%;
+   text-align: center; /*p é elemento de texto, por isso usa-se text-align e não align-items */
+   border-width: 2px;
+   border-style: solid;
+   border-color: #C61F31;
+  
+}
+
+.over-desc a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
