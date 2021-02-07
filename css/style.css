@@ -84,13 +84,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
 }
-.kiai-main {
-    /*carregar imagem
-    background-image: url('../imagens/34982.jpg');
-    height: 100%;
-    background-repeat: no-repeat;
-    */
-}
+
 
 .kiai-title {
     margin-right: 3%;
