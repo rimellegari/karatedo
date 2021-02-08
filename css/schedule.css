@@ -38,16 +38,21 @@
 }
 .day-week {
     margin-bottom: 2%;
-    min-width: 120px;
+    min-width: 150px;
+}
+
+.day-mark h3 {
+    margin:  0px;
+    border: 0px;
 }
 .schedule {
-max-width: 1000px;
+max-width: 1200px;
 padding-left: 3%;
 padding-right: 3%;
 margin: 0 auto;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /*min width da col 225px, máximo 1fr e auto-fill vai tentar ajustar as colunas*/
-gap: 30px;
+gap: 50px;
 justify-items: center;
 }
 .hora1 {
