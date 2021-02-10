@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
          <link href="./css/style.css" rel="stylesheet">
          <link href="./css/schedule.css" rel="stylesheet">
+         <link href="./css/contact.css" rel="stylesheet">
     </head>
     <body>
 
@@ -23,7 +24,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="info.html">informações</a></li>
                         <li><a href="schedule.html">Horários</a></li>
-                        <li id="aluno"><a href="">Área do aluno</a></li>
+                        <li id="aluno"><a href="values.html">Mensalidades</a></li>
               
                     </ul>
                 </div>
@@ -156,11 +157,53 @@
                     
 
             </div>
-                
-    
-        
+            </div>
+            <br>
+            <br>
+            <span class="kiai-title">Agende seu horário</span>
+            <hr class="underline">
+           <div class="form-container">
+            <form class="form-aula">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required></input>
+                    <label for="tel"></label>Telefone</label>
+                    <input type="tel" id="tel" required></input>
+                    <label for="tipo">Tipo:</label>
+                    <select  name="tipo"  id="tipo" required>
+                        <option> </option>
+                        <option>Infantil</option>
+                        <option>Junior</option>
+                        <option>Adulto</option>
+                    </select>
+                    <fieldset class="dia" id="dia">
+                    <label for="dia">Dia:</label>
+                    <select  name="dia"  id="dia" required >
+                        <option> </option>
+                        <option>Segunda-Feira</option>
+                        <option>Terça-Feira</option>
+                        <option>Quarta-Feira</option>
+                        <option>Quinta-Feira</option>
+                    </select>
+                    </fieldset>
+                    <fieldset class="horario" id="horario">
+                        <label for="horario">Horário:</label>
+                        <select  name="horario"  id="horario" required onchange="populate()"> 
+                            <!--<option> </option>
+                            <option value="15h">15:00-16:00</option>
+                            <option value="16h">16:00-17:00</option>
+                            <option value="17h">17:00-18:00</option>
+                            <option value="18h">18:00-19:00</option>-->
+                        </select>
+                        <input type="submit" class="enviar">
+                    </fieldset>
+                </form>
+        </div>
+        <br>
+        <br>
+        <br>
         </main>
         
             <script src="js/effect.js"></script>
+            <script src="js/options.js"></script>
     </body>
 </html>

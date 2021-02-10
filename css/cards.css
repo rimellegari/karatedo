@@ -76,3 +76,55 @@ justify-items: center;
     color: inherit;
     display: block;
 }
+
+/*divs de informação*/
+
+.bem-estar {
+    margin-left: 3%;
+    margin-right: 3%;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.bem-estar li {
+    margin: 10px;
+}
+
+#infantil {
+    display: none;
+}
+
+#cria {
+    cursor: pointer;
+}
+
+#teen {
+    cursor: pointer;
+}
+#adolescente {
+    display: none;
+}
+
+#adultosdiv {
+    display: none;
+}
+
+#adultos {
+    cursor: pointer;
+}
+
+.matricula2 {
+    border: none;
+    background-color: #C61F31;
+    height: 2rem;
+    margin-left: 3%;
+    min-width: 104px;
+    text-decoration: none;
+
+}
+.matricula2 a {
+ text-decoration: none;
+ color: white;
+
+}

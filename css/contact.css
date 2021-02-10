@@ -1,0 +1,68 @@
+.form-container {
+
+margin-left:25%;
+margin-right: 25%;
+width: 50%;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    display: block;
+    padding: 5px 0px;
+}
+.form-aula input, select {
+    padding: 5px 0px;
+    min-width: 300px;
+    max-width: 500px;
+    margin-bottom: 0.5rem;
+}
+
+form
+{
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+}
+
+
+fieldset {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.enviar {
+    width: 20%;
+    background-color: #C61F31;
+    border:none;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    font-weight: 800;
+}
+
+.enviar:hover{
+    color: #333;
+
+}
+
+@media (max-width: 400px) {
+.form-aula {
+
+margin-left:3%;
+margin-right: 3%;
+
+}
+.form-container {
+
+    margin-left:3%;
+    margin-right: 3%;
+    
+    }
+
+}
+
